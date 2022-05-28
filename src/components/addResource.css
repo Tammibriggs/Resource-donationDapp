@@ -1,0 +1,43 @@
+.addResource {
+  margin-top: 15px;
+  display:grid;
+  grid-gap: 10px;
+}
+
+.addResource__ele {
+  display: flex;
+  flex-direction: column;
+}
+
+.addResource__ele label {
+  font-weight: 550;
+  font-family: fantasy;
+  color: white;
+}
+
+.addResource__ele input{
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(199, 199, 199);
+  outline: none;
+  font-size: 17px;
+  color: white;
+  background-color: #310560;
+}
+
+.addResource__ele input:focus{
+  outline: none;
+}
+
+.addResource button{
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: #efa929;
+  color: white;
+}
+
+.addResource button:hover{
+  background-color: #f7b63e;
+}

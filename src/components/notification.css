@@ -1,0 +1,19 @@
+.notification{
+  padding: 20px;
+  background: white;
+  width: 250px;
+  border-radius: 10px;
+  position: fixed;
+  top: 10px;
+  right: 0;
+  transition: transform 1s ease-in-out;
+  transform: translateX(350px);
+}
+
+.notification-show{
+  transform: translateX(0);
+}
+
+.not-check {
+  color: rgb(46, 241, 46);
+}
